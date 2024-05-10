@@ -28,7 +28,7 @@
         $.ajax({
               dataType: 'json',
              // url: "http://127.0.0.1:5984/demo01/_design/vista001/_view/vista001?include_docs=true"
-              url: "http://127.0.0.1:5984/demo01/_design/vista001/_view/vista001?include_docs=true"
+              url: "http://127.0.0.1:5984/demo01/_design/vista001/_view/vista001?key=%2207%22&include_docs=true"
               }).then(function(data) {
                 console.log(data);
                 for(var i=0; i<data.rows.length; i++){
